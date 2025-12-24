@@ -1,0 +1,99 @@
+/* Reset basic spacing */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page container */
+header, main, footer {
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  color: #2c3e50;
+}
+
+/* Form box */
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+}
+
+/* Inputs, select, textarea */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Radio & checkbox spacing */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Submit button */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #555;
+}
